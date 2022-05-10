@@ -1,0 +1,75 @@
+.App {
+  background-color: #eaeaea;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  text-align: center;
+}
+.Header {
+  color: #808080;
+  font-size: 2em;
+}
+.search {
+  width: 40%;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 1.5em;
+}
+.Form {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.circle {
+  display: block;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: 0 0 0 5px;
+}
+.textarea {
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1.3em;
+  padding: 1%;
+}
+#colorPicker {
+  display: flex;
+}
+
+#colorPicker figure {
+  margin-left: 3 px;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.btn {
+  color: #fff;
+  background-color: limegreen;
+  border-radius: 12px;
+  padding: 5px;
+  width: 60px;
+  border: none;
+  font-size: 12px;
+}
+.noteList {
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.noteList > span {
+  padding: 10px;
+  margin: 0.4em;
+  font-size: 1.4em;
+  width: 29%;
+}
